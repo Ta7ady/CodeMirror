@@ -35,10 +35,17 @@
     "Editor"
   ],
   "homepage": "https://codemirror.net",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/codemirror/CodeMirror.git"
-  },
+    "repositories":
+    [
+            {
+                "type": "vcs",
+                "url": "https://github.com/Ta7ady/CodeMirror.git"
+            }
+    ],
+    "require":
+    {
+        "codemirror/codemirror": "dev-master"
+    }, 
   "jspm": {
     "directories": {},
     "dependencies": {},
