@@ -4,7 +4,7 @@
   "homepage": "https://codemirror.net",
   "repositories": [{
     "type": "vcs",
-    "url": "https://github.com/Ta7ady/CodeMirror.git"
+    "url": "https://github.com/codemirror/CodeMirror.git"
   }],
   "require": {
     "codemirror/codemirror": "dev-master"
